@@ -1,24 +1,37 @@
 # javascript-study-guide
-## Notes
 
-At the top of the file there should be a short introduction and/ or overview that explains **what** the project is. This description should match descriptions added for package managers (Gemspec, package.json, etc.)
+## Useful sites
+1. https://theintern.github.io
 
-## Code Example
 
-Show what the library does as concisely as possible, developers should be able to figure out **how** your project solves their problem by looking at the code example. Make sure the API you are showing off is obvious, and that your code is short and concise.
+## Useful tools
+1. enzyme- to use react and test, made by airbnb
+2. 
 
-## Motivation
+## react
+1. just a view layer, it is a view linker, it is the tree component
+2. virtual DOM (document object model)
+3. uses flux (pattern, uni-directional data flow, MVC but better)
+uni-directional means that:
+   |<--------------------------
+actions->                     |
+actions->dispatcher->store->view
+actions->-----------(unidirectional)
 
-A short description of the motivation behind the creation and maintenance of the project. This should explain **why** the project exists.
 
-## Installation
+## useful react things
 
-Provide code examples and explanations of how to get the project.
+1. mount ->fully render tree
+2. shallow ->only render one level of the tree(preferred for testing)
+3. you can return html without strings in javascript
 
-## API Reference
+## relay
+1. relay is a evolution of flux
+2. needs to be used with react but react does not need relay
 
-Depending on the size of the project, if it is small and simple enough the reference docs can be added to the README. For medium size to larger projects it is important to at least provide a link to where the API reference docs live.
-
+## other things
+1. what is grunt?
+2. HUI gallery->get UI components, harmony
 ## Tests
 
 Describe and show how to run the tests with code examples.
